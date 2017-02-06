@@ -13,6 +13,11 @@ void FirstController :: start()
     int myNumber;
     cin >> myNumber;
     int * numberPointer = &myNumber;
+    //ARRAYS YAYAYAYAYAYAYAYYAYAyAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAY
+    int numbers [9] = {1,2,3,4,5,6,7,8,9};
+    int morNumbers [3] = {3,2,1};
+    
+    double pi [1] = {3.14159265358979323846263383};
     
     cout << "Starting with: " << myNumber << endl;
     useNumbers(myNumber);
